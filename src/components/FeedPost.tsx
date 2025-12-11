@@ -42,7 +42,6 @@ const FeedPost: React.FC<{ post: Post; onAction?: () => void }> = ({ post }) => 
               <div className="font-semibold text-sm">John Doe</div>
               <div className="text-xs text-gray-400">{timeAgo(post.createdAt)}</div>
             </div>
-            <div className="text-gray-300">...</div>
           </div>
 
           <div

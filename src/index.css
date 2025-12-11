@@ -66,3 +66,25 @@ body {
   outline: none !important;
   box-shadow: none !important;
 }
+
+.MuiTiptap-FieldContainer .MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+.MuiTiptap-FieldContainer .MuiOutlinedInput-notchedOutline {
+  border-width: 0 !important;
+}
+.MuiTiptap-FieldContainer.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-width: 0 !important;
+}
+
+.css-f0dl5j-MuiTiptap-FieldContainer-notchedOutline {
+  border-width: 0 !important;
+}
+
+.MuiTiptap-FieldContainer-notchedOutline,
+.MuiTiptap-FieldContainer .MuiOutlinedInput-notchedOutline,
+.MuiTiptap-FieldContainer.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: none !important;
+  border-width: 0 !important;
+}

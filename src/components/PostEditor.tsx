@@ -104,7 +104,6 @@ const PostEditor: React.FC<Props> = ({ onPublish, requireAuth }) => {
       </div>
 
       <RichTextEditor
-        className="border-0 focus:ring-0 focus:outline-none active:ring-0 active:outline-none"
         ref={editorRef}
         extensions={[
           StarterKit,
@@ -113,9 +112,9 @@ const PostEditor: React.FC<Props> = ({ onPublish, requireAuth }) => {
           }),
         ]}
         renderControls={() => (
-          <MenuControlsContainer className="flex items-center w-full p-0">
-            <div className="bg-gray-100 flex items-center h-8 rounded-md p-2">
-              <MenuSelectHeading />
+          <MenuControlsContainer className="flex items-center w-full">
+            <div className="bg-gray-50 flex items-center h-7 rounded-md p-1">
+              <MenuSelectHeading  className="bg-white"/>
               <MenuDivider />
               <MenuButtonBold />
               <MenuButtonItalic />
@@ -144,7 +143,7 @@ const PostEditor: React.FC<Props> = ({ onPublish, requireAuth }) => {
       />
 
       {/* Bottom action row */}
-      <div className="flex items-center justify-between p-2">
+      <div className="flex items-center justify-between p-2 border-t-2 border-gray-100">
         {/* Left icons */}
         <div className="flex items-center gap-2">
           <button className="p-2 bg-gray-100 hover:bg-gray-200 rounded-md" onClick={()=>alert('Function not implemented')}>
@@ -162,7 +161,7 @@ const PostEditor: React.FC<Props> = ({ onPublish, requireAuth }) => {
 
         {/* Right send button */}
         <button
-          className="bg-blue-500 w-7 h-8 flex items-center justify-center rounded-full hover:bg-blue-600"
+          className="bg-blue-500 w-8 h-8 flex items-center justify-center rounded-full hover:bg-blue-600"
           onClick={() => requireAuth(publish)}
         >
           <PaperAirplaneIcon className="w-4 h-4 text-white" />

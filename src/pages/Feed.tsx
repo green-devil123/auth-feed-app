@@ -10,13 +10,13 @@ const Feed: React.FC = () => {
     {
       id: 1,
       author: 'John Doe',
-      content: 'This is a sample post. Interactions are not implemented.',
+      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
       createdAt: Date.now() - 1000 * 60 * 20,
     },
     {
       id: 2,
       author: 'Jane Doe',
-      content: 'Another example post. Clicks show alerts.',
+      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
       createdAt: Date.now() - 1000 * 60 * 60,
     },
   ])
@@ -36,7 +36,7 @@ const Feed: React.FC = () => {
   }
 
   return (
-    <div className="max-w-[28rem] mx-auto py-8 space-y-12">
+    <div className="max-w-[32rem] mx-auto py-8 space-y-12">
       {/* PostEditor with overlay for unauthenticated users */}
       <div className="relative">
         {!isAuthenticated && (

@@ -12,3 +12,11 @@ Run locally:
 
 1. npm install
 2. npm run dev
+
+
+Builld
+1. npm run build
+2. npm install -g serve
+3. serve -s dist
+
+The most challengin is RichTextEditor

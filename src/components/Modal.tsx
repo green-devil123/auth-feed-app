@@ -22,7 +22,7 @@ const Modal: React.FC<{ open: boolean; onClose: () => void; children?: React.Rea
   if (!open) return null;
   
   return (
-    <div className="fixed inset-0 z-40 flex items-center justify-center bg-black/30 backdrop-blur-sm px-4">
+    <div className="fixed inset-0 z-40 flex items-center justify-center bg-black/30 px-4">
       <div ref={modalRef} className="bg-gray-200 rounded-2xl w-1/2 max-w-sm p-2 pb-5 modal-pop relative">
         {/* <button aria-label="Close" onClick={onClose} className="absolute top-3 right-3 text-gray-400 hover:text-gray-600">✕</button> */}
         {children}
