@@ -75,7 +75,7 @@ const InnerApp: React.FC = () => {
       {/* ROUTES */}
       <main className="min-h-screen">
         <Routes>
-          <Route path="/auth-feed-app" element={<div className="pt-6"><Feed /></div>} />
+          <Route path="/" element={<div className="pt-6"><Feed /></div>} />
           <Route path="/signin" element={<SignInPage />} />
           <Route path="/signup" element={<SignUpPage />} />
         </Routes>

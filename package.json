@@ -7,9 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -43,5 +41,4 @@
     "typescript-eslint": "^8.46.4",
     "vite": "^7.2.4"
   }, 
-  "homepage": "https://green-devil123green-devil123.github.io/auth-feed-app"
 }
