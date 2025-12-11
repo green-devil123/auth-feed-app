@@ -1,0 +1,110 @@
+
+.feed-post-content {
+  line-height: 1.6;
+  word-break: break-word;
+}
+
+/* Paragraphs */
+.feed-post-content p {
+  margin: 0 0 0.75rem 0;
+}
+
+/* Paragraphs inside list items */
+.feed-post-content li > p {
+  margin-bottom: 0;
+  display: inline; /* so text in li flows normally */
+}
+
+/* Inline code */
+.feed-post-content code {
+  background-color: #f3f4f6;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.95em;
+}
+
+/* Code blocks */
+.feed-post-content pre {
+  background-color: #f3f4f6;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: monospace;
+  font-size: 0.95em;
+  margin: 0.75rem 0;
+}
+
+/* Lists */
+.feed-post-content ul,
+.feed-post-content ol {
+  padding-left: 1.5rem;
+  margin: 0.75rem 0;
+}
+
+.feed-post-content ul {
+  list-style-type: disc;
+}
+
+.feed-post-content ol {
+  list-style-type: decimal;
+}
+
+.feed-post-content li {
+  margin-bottom: 0.25rem;
+}
+
+/* Blockquotes */
+.feed-post-content blockquote {
+  border-left: 4px solid #d1d5db;
+  padding-left: 1rem;
+  color: #6b7280;
+  font-style: italic;
+  margin: 0.75rem 0;
+  background-color: #f9fafb;
+}
+
+/* Text formatting */
+.feed-post-content strong {
+  font-weight: 600;
+}
+
+.feed-post-content em {
+  font-style: italic;
+}
+
+.feed-post-content u {
+  text-decoration: underline;
+}
+
+/* Links */
+.feed-post-content a {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+/* Headings */
+.feed-post-content h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.feed-post-content h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0.875rem 0 0.5rem 0;
+}
+
+.feed-post-content h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0.75rem 0 0.5rem 0;
+}
+
+/* Optional: smoother emoji display */
+.feed-post-content span.emoji {
+  font-size: 1em;
+  line-height: 1;
+  vertical-align: middle;
+}
